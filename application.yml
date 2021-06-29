@@ -8,14 +8,12 @@ eureka:
     hostname: localhost
     prefer-ip-address: true
     
-
-
 microservice:
-  payment-service:
-    endpoints:
-      endpoint:
-        uri: http://PAYMENT-SERVICE/payment
-  order-service:
-    endpoints:
-      endpoint:
-        uri: http://ORDER-SERVICE/order
+    order-service:
+        endpoints:
+            endpoint:
+                uri: http://ORDER-SERVICE/order
+    payment-service:
+        endpoints:
+            endpoint:
+                uri: http://PAYMENT-SERVICE/payment
