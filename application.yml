@@ -8,6 +8,9 @@ eureka:
     hostname: localhost
     prefer-ip-address: true
     
+test:
+    msg: 'Good afternoon'
+  
 microservice:
     order-service:
         endpoints:
